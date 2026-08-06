@@ -1,0 +1,29 @@
+seed: 1234
+seeds: [1234, 2345, 3456, 4567, 5678]
+device: cuda
+precision: fp32
+rounds: 19
+local_epochs: 5
+batch_size: 32
+learning_rate: 0.0001
+weight_decay: 0.01
+optimizer: adamw
+scheduler: cosine
+warmup_rounds: 0
+gradient_clip: 1.0
+client_fraction: 1.0
+q: 2.0
+lambda_calibration: 0.5
+lambda_equity: 1.0
+equity_temperature: 5.0
+fairness_margin: 0.05
+patience: 3
+modalities: [ehr, ct, pathology, omics, biomarkers]
+fusion_dimension: 768
+fusion_heads: 8
+fusion_layers: 2
+dropout: 0.1
+bootstrap_resamples: 2000
+cross_site_resamples: 1000
+ece_bins: 10
+

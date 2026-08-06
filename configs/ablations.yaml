@@ -1,0 +1,29 @@
+experiments:
+  full:
+    calibration: true
+    equity: true
+    audit_feedback: true
+  no_calibration:
+    calibration: false
+    equity: true
+    audit_feedback: true
+  no_equity:
+    calibration: true
+    equity: false
+    audit_feedback: true
+  no_audit_feedback:
+    calibration: true
+    equity: true
+    audit_feedback: false
+  fedavg:
+    calibration: false
+    equity: false
+    audit_feedback: false
+sweeps:
+  lambda_calibration: [0.0, 0.1, 0.25, 0.5, 1.0, 2.0]
+  lambda_equity: [0.0, 0.5, 1.0, 2.0]
+  q: [0.5, 1.0, 2.0, 5.0, 10.0]
+  local_epochs: [1, 5, 10]
+  client_fraction: [0.5, 0.75, 1.0]
+  privacy_epsilon: [1.0, 5.0, 10.0]
+

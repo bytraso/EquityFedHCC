@@ -1,0 +1,19 @@
+sites:
+  eicu:
+    modalities: [ehr, biomarkers]
+    partition_key: hospitalid
+    split: [0.7, 0.1, 0.2]
+  tcga_lihc:
+    modalities: [ehr, ct, pathology, omics, biomarkers]
+    partition_key: tissue_source_site
+    split: [0.7, 0.1, 0.2]
+  nhanes:
+    modalities: [ehr, biomarkers]
+    partition_key: cycle
+    temporal_train_end: 2020
+    temporal_test_start: 2021
+  lits_msd:
+    modalities: [ct]
+    partition_key: institution
+    split: [0.7, 0.1, 0.2]
+

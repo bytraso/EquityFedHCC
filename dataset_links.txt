@@ -1,0 +1,6 @@
+eICU-CRD v2.0 | PhysioNet Credentialed Health Data License 1.5.0 | https://physionet.org/content/eicu-crd/2.0/
+TCGA-LIHC GDC harmonized v36+ | TCGA Open Access Tier | https://portal.gdc.cancer.gov/projects/TCGA-LIHC
+TCGA-LIHC imaging | TCIA Data Usage Policy | https://www.cancerimagingarchive.net/collection/tcga-lihc/
+NHANES 2013-2023 | United States Government Public Domain | https://www.cdc.gov/nchs/nhanes/
+Medical Segmentation Decathlon Task03 Liver | CC BY-SA 4.0 | http://medicaldecathlon.com/
+
